@@ -1,0 +1,32 @@
+{% extends "blog/base.html" %}
+{% block content %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        /* Add CSS styles to create a hero image */
+        .hero-container {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            height: 400vh; /* Set the height to 87vh to cover 87% of the viewport height */
+            max-width: 300%; /* Set the maximum width to 100% to prevent image overflow */
+            background-image: url('/media/natural_disasters.png');
+            background-size: contain; /* Use "contain" to fit the image within the container */
+            background-repeat: no-repeat; /* Prevent repeating of the image */
+            background-position: center;
+            color: #ffffff; /* Text color on top of the image */
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Image Container -->
+    <div class="hero-container">
+    </div>
+
+    <!-- Your other content for the home page goes here -->
+</body>
+</html>
+
+{% endblock content %}
