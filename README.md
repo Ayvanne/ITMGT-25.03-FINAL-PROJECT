@@ -9,24 +9,24 @@ This project uses the following dependencies and packages:
 
 HOW TO RUN THE PROJECT (ADMIN VIEW):
 1. Clone the repository to your local machine:
-   (git clone https://github.com/Ayvanne/ITMGT-25.03-FINAL-PROJECT.git)
+   - (git clone https://github.com/Ayvanne/ITMGT-25.03-FINAL-PROJECT.git)
 2. Change into the project directory:
-   (cd project/)
+   - (cd project/)
 3. Create and activate a virtual environment (optional, but recommended):
-   (python -m venv env
-   source env/bin/activate)
+   - (python -m venv env)
+   - (source env/bin/activate)
 4. Install project dependencies from requirements.txt:
-   (pip install -r requirements.txt)
+   - (pip install -r requirements.txt)
 5. Apply database migrations:
-   (python manage.py migrate)
+   - (python manage.py migrate)
 6. Create a superuser to access the admin panel:
-   (python manage.py createsuperuser)
+   - (python manage.py createsuperuser)
 7. Run the development server:
-   (python manage.py runserver)
+   - (python manage.py runserver)
 8. Access the Admin View at:
-   (http://127.0.0.1:8000/admin/)
+   - (http://127.0.0.1:8000/admin/)
 
 HOW TO RUN THE PROJECT (USER VIEW)
 1. Follow the instructions given in the "ADMIN VIEW," but omit the sixth step.
 2. Access the Customer View at:
-   (http://127.0.0.1:8000/)
+   - (http://127.0.0.1:8000/)
