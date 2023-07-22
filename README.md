@@ -34,6 +34,6 @@ HOW TO RUN THE PROJECT (ADMIN VIEW):
    - http://127.0.0.1:8000/admin/
 
 HOW TO RUN THE PROJECT (USER VIEW)
-1. Follow the instructions in the "ADMIN VIEW," but omit the sixth step.
+1. Follow the instructions in the "ADMIN VIEW," but omit the fifth step.
 2. Access the User View at:
    - (http://127.0.0.1:8000/)
