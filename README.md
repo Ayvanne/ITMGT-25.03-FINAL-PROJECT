@@ -21,23 +21,19 @@ HOW TO RUN THE PROJECT (ADMIN VIEW):
    - git clone https://github.com/Ayvanne/ITMGT-25.03-FINAL-PROJECT.git
 2. Change into the project directory:
    - cd 'file path'
-3. Create and activate a virtual environment (optional, but recommended):
-   - python -m venv env
-   - source env/bin/activate (For Mac)
-   - env\Scripts\activate (For Windows)
-4. Install project dependencies from requirements.txt:
+3. Install project dependencies from requirements.txt:
    - pip install -r requirements.txt
-   - Note: Use this if you have python 3.10, if not, install the package version that is compatible to your python version
-6. Apply database migrations:
+   - Note: Use this if you have python 3.10, if not, install the package version that is compatible with your python version
+4. Apply database migrations:
    - python manage.py migrate
-7. Create a superuser to access the admin panel:
+5. Create a superuser to access the admin panel:
    - python manage.py createsuperuser
-8. Run the development server:
+6. Run the development server:
    - python manage.py runserver
-9. Access the Admin View at:
+7. Access the Admin View at:
    - http://127.0.0.1:8000/admin/
 
 HOW TO RUN THE PROJECT (USER VIEW)
-1. Follow the instructions given in the "ADMIN VIEW," but omit the sixth step.
+1. Follow the instructions in the "ADMIN VIEW," but omit the sixth step.
 2. Access the User View at:
    - (http://127.0.0.1:8000/)
