@@ -1,0 +1,31 @@
+{% extends "blog/base.html" %}
+{% block content %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        /* Add CSS styles to create a hero image */
+        .hero-container {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            height: 87vh; /* Set the height to 100vh to cover the entire viewport height */
+            width: 98vw; /* Set the width to 100vw to cover the entire viewport width */
+            background-image: url('/media/about_image.png');
+            background-size: cover;
+            background-position: center;
+            color: #ffffff; /* Text color on top of the image */
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Image Container -->
+    <div class="hero-container">
+    </div>
+
+    <!-- Your other content for the home page goes here -->
+</body>
+</html>
+
+{% endblock content %}
