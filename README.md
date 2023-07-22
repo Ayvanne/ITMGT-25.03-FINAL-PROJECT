@@ -20,7 +20,7 @@ HOW TO RUN THE PROJECT (ADMIN VIEW):
 1. Clone the repository to your local machine:
    - git clone https://github.com/Ayvanne/ITMGT-25.03-FINAL-PROJECT.git
 2. Change into the project directory:
-   - cd project/
+   - cd <file path>
 3. Create and activate a virtual environment (optional, but recommended):
    - python -m venv env
    - source env/bin/activate (For Mac)
