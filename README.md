@@ -5,7 +5,7 @@ Saklolo is a disaster management system that serves as a preparedness, response,
 DEPENDENCIES AND PACKAGES:
 
 This project uses the following dependencies and packages:
-(For Python 3.10)
+- (For Python 3.10)
 1. asgiref 3.7.2
 2. Django 3.2
 3. crispy-bootstrap4 2022.1
