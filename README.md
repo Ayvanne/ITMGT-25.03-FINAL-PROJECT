@@ -23,7 +23,8 @@ HOW TO RUN THE PROJECT (ADMIN VIEW):
    - cd project/
 3. Create and activate a virtual environment (optional, but recommended):
    - python -m venv env
-   - source env/bin/activate
+   - source env/bin/activate (For Mac)
+   - venv\Scripts\activate (For Windows)
 4. Install project dependencies from requirements.txt:
    - pip install -r requirements.txt
 5. Apply database migrations:
