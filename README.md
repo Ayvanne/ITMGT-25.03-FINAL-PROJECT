@@ -38,5 +38,5 @@ HOW TO RUN THE PROJECT (ADMIN VIEW):
 
 HOW TO RUN THE PROJECT (USER VIEW)
 1. Follow the instructions given in the "ADMIN VIEW," but omit the sixth step.
-2. Access the Customer View at:
+2. Access the User View at:
    - (http://127.0.0.1:8000/)
